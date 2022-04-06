@@ -17,6 +17,17 @@ body {
     font-family: 'Kumbh Sans', sans-serif;
 }
 
+.topimage {
+    background-image: url(images/bg-pattern-top.svg);
+    background-repeat: repeat;
+    background-size: 300px 500px;
+    background-position: center center;
+}
+
+.botimage{
+
+}
+
 main {
     background: white;
     position: absolute;

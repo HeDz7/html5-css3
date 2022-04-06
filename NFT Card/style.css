@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+}
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    color: white;
+}
+
+.box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    flex-direction: column;
+    border-radius: 20px;
+    background-color: hsl(216, 50%, 16%)
+}
+
+.icon-equilibrium {
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.equilibrium {
+    margin-top: 20px;
+    font-weight: 700;
+}
+
+.description {
+    color: hsl(215, 51%, 70%);
+}
+
+
+.info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    border-bottom: 1px solid hsl(215, 32%, 27%);
+    padding-bottom: 25px;
+}
+
+.h4-ethereum {
+    color:  hsl(178, 100%, 50%);
+    font-weight: 550;
+}
+
+.h4-clock {
+    color: hsl(215, 51%, 70%);
+    font-weight: 100;
+}
+
+.ethereum {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+
+}
+
+.clock {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+
+}
+
+.created-by{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+
+.img-creation{
+    width: 40px;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+
+.p {
+    padding-right: 35px;
+    color: hsl(215, 51%, 70%);
+}
+
+.span {
+    color: white;
+    font-weight: 500;
+}
+
+.span:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+.equilibrium:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+.icon-equilibrium:hover {
+    cursor: pointer;
+}
+
+.box .card div {
+    position: absolute;
+    top: 0;
+    background-color: hsl(178, 100%, 50%, 40%);
+    width: 300px;
+    height: 300px;
+    z-index: 1;
+    margin-top: 20px;
+    border-radius: 20px;
+    opacity: 0;
+}
+
+.icon-view {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.box .card div:hover {
+    opacity: 1;
+    cursor: pointer;
+}

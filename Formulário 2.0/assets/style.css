@@ -1,0 +1,136 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, aquamarine, rgb(119, 0, 255));
+}
+
+.box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 15px;
+    border-radius: 15px;
+    width: 30%;
+    color: white;
+}
+
+fieldset{
+    border: 3px solid rgb(68, 0, 255);
+}
+
+legend{
+    border: 1px solid rgb(68, 0, 255);
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(68, 0, 255);
+    border-radius: 5px;
+}
+
+.inputBox {
+    position: relative;
+}
+
+.inputUser {
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    width: 100%;
+    letter-spacing: 2px;
+}
+
+.labelInput{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.inputUser:focus ~ .labelInput, .inputUser:valid ~ .labelInput{
+    top: -20px;
+    font-size: 12px;
+    color: rgb(144, 103, 255);
+}
+
+#data_nascimento {
+    border: none;
+    padding: 8px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 15px;
+}
+
+#submit{
+    background-image: linear-gradient(to right, purple, blue);
+    width: 100%;
+    border: none;
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+#submit:hover{
+    background-image: linear-gradient(to right, white,black);
+}
+
+@media (max-width: 769px) {
+    
+    .box{
+        font-size: 10px;
+        width: 270px;
+        height: 88%;
+        display: flex;
+    }
+
+    #data_nascimento {
+        padding: 2px;
+        font-size: 10px;
+        margin: 10px;
+    }
+
+    fieldset {
+        width: 93%;
+        height: 570px;
+    }
+
+    #submit {
+        margin-top: 20px;
+        padding: 10px;
+    }
+    .inputBox {
+        margin-top: 10px;
+    }
+
+    
+@media (max-height: 674px) {
+    body{
+        width: 80%;
+        height: 200%;
+    }
+    
+    fieldset {
+        height: 95%;
+    }
+
+    .inputBox {
+        margin-bottom: -2%;
+    }
+
+    .inputUser:focus ~ .labelInput, .inputUser:valid ~ .labelInput{
+        top: -15px;
+        font-size: 10px;
+    }
+
+     .feminino, .masculino, .outro{
+        
+    }
+
+    
+
+}

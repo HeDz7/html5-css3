@@ -18,6 +18,7 @@ body {
     height: 100vh;
 }
 
+/* ---------------HEADER---------------- */
 header {
     background-color: black;
     padding-bottom: 30px;
@@ -31,6 +32,7 @@ header h1 {
     text-shadow: 5px 5px 2px rgba(255, 154, 154, 0.321);
     color: rgb(228, 228, 228);
     letter-spacing: 10px;
+    font-variant: small-caps;
 }
 
 .head img {
@@ -55,6 +57,8 @@ header h1 {
     margin: 20px;
 }
 
+
+/* ---------------CONTEUDO 1---------------- */
 .conteudo1 p {
     padding: 50px 0px;
     font-size: 1.5em;
@@ -74,15 +78,14 @@ header h1 {
     height: 100%;
 }
 
-article {
+
+/* ---------------CONTEUDO 2---------------- */
+.conteudo2 article {
     height: 40vh;
+    width: 100%;
     display: flex;
     text-align: center;
     justify-content: space-around;
-}
-
-.habilidades {
-    padding-bottom: 5vh;
 }
 
 .conteudo2 {
@@ -96,6 +99,7 @@ article {
 .conteudo2 .habilidades {
     font-family: 'Assassin', sans-serif;
     letter-spacing: 10px;
+    padding-bottom: 5vh;
 }
 
 .conteudo2 h1 {
@@ -128,6 +132,8 @@ article {
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.568);
 }
 
+
+/* ---------------CONTEUDO 3---------------- */
 .conteudo3 { 
     background: black;
     padding: 50px;
@@ -150,6 +156,8 @@ article {
     border-radius: 20px;
 }
 
+
+/* ---------------CONTEUDO 4---------------- */
 .conteudo4 {
     background-image: url(imagens/zedconteudo4.jpg);
     background-repeat: no-repeat;
@@ -186,6 +194,8 @@ article {
     color: orange;
 }
 
+
+/* ---------------FOOTER---------------- */
 footer {
     display: flex;
     background: radial-gradient(darkgray, rgb(84, 84, 84));
@@ -204,9 +214,13 @@ footer p {
     font-size: 1.3em;
 }
 
-
+/* ---------------RESPONSIVIDADE---------------- */
 @media (max-width: 1300px) {
     .conteudo1 img {
         display: none;
+    }
+
+    .conteudo2 article {
+        flex-direction: column;
     }
 }

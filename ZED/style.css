@@ -14,7 +14,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: darkgray;
-    width: 98vw;
+    width: 98.9vw;
     height: 100vh;
 }
 
@@ -105,7 +105,7 @@ article {
 }
 
 .conteudo2 div {
-    width: 200px;
+    width: 100%;
 }
 
 .conteudo2 article div > h1 {

@@ -162,11 +162,19 @@ header h1 {
     background-image: url(imagens/zedconteudo4.jpg);
     background-repeat: no-repeat;
     background-position: center center;
+    background-size: 100% 100%;
     background-size: cover;
     background-attachment: fixed;
-    height: 70vh;
     padding: 50px;
     color: white;
+}
+
+.card4 {
+    height: 100%;
+}
+
+#estatisticas {
+    padding-top: 40px;
 }
 
 .conteudo4 h2 {

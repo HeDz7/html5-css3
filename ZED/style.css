@@ -151,12 +151,12 @@ header h1 {
 
 .conteudo3 p{
     text-align: justify;
-    padding: 20px 30px;
     font-size: 1.2em;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.333);
     line-height: 35px;
     background-color: white;
     border-radius: 20px;
+    padding: 20px;
 }
 
 
@@ -287,6 +287,7 @@ footer p {
         font-size: 1em;
         padding: 20px;
         margin-left: -20px;
+        text-decoration: underline;
     }
     
     .conteudo2 article div > p {
@@ -295,6 +296,7 @@ footer p {
         text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.568);
         text-align: justify;
         padding-bottom: 20px;
+        padding-right: 50px;
     }
     
     .conteudo2 article div > span {
@@ -302,10 +304,43 @@ footer p {
         text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.699);
     }
     
+    /* CONTEUDO 1 */
+    .conteudo1 p {
+        padding: 30px 20px;
+        text-align: ;
+        font-size: 1.3em;
+        line-height: 30px;
+        font-weight: normal;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.282);
+    }
 
+    /* CONTEUDO 3 */
+    .conteudo3 { 
+        background: black;
+        padding: 10px;
+    }
     
-    /* FOOTER */
+    .conteudo3 h2 {
+        text-align: center;
+        color: white;
+        padding-bottom: 20px;
+        font-family: 'Assassin', sans-serif;
+        letter-spacing: 5px;
+    }
+    
+    .conteudo3 p{
+        text-align: justify;
+        font-size: 1em;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.429);
+        line-height: 30px;
+        background-color: white;
+        border-radius: 20px;
+        padding: 20px;
+        margin: 10px;
+    }
+    
 
+    /* FOOTER */
     footer {
         display: flex;
         background: radial-gradient(darkgray, rgb(84, 84, 84));

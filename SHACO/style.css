@@ -11,6 +11,10 @@
     box-sizing: border-box;
 }
 
+html, body {
+    overflow-x:auto;
+}
+
 body {
     height: 100vh;
     width: 98.9vw;
@@ -41,7 +45,7 @@ header .head {
 
 /* CONTEUDO 1 */
 .conteudo1 {
-    background-image: url(imagens/shacoconteudo1.jpg);
+    background-image: url(imagens/shaco1-1000.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -119,7 +123,7 @@ header .head {
 .conteudo3 {
     padding: 50px;
     color: white;
-    background-image: url(imagens/shaco1-1000.jpg);
+    background-image: url(imagens/shaco2.jpg);
     background-position: center top;
     background-size: cover;
     background-repeat: no-repeat;

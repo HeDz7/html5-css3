@@ -1,0 +1,110 @@
+@font-face {
+    font-family: 'Assassin';
+    src: url(aAssassinNinja.otf) format('opentype'), url(aAssassinNinja.ttf) format('truetype');
+    font-weight: normal;
+    font-size: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: darkgray;
+}
+
+/* HEADER */
+header {
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 30px;
+}
+
+header h1 {
+    text-shadow: 5px 5px 5px rgba(255, 0, 0, 0.416);
+}
+
+header .head {
+    padding-top: 30px;
+}
+
+.head p {
+    color: orange;
+}
+
+/* CONTEUDO 1 */
+.conteudo1 {
+    background-image: url(imagens/shacoconteudo1.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+}
+
+.conteudo1 h2 {
+    text-align: center;
+    font-family: 'Assassin', Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 20px 0;
+    font-size: 2em;
+}
+
+.skills {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 30px;
+    width: 100%;
+}
+
+.skills p {
+    text-align: center;
+    width: 300px;
+    padding-top: 10px;
+}
+
+.conteudo1 article div > p {
+    display: none;
+}
+
+.conteudo1 article div > span {
+    color: orange;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.699);
+}
+
+.conteudo1 article div:hover > p {
+    display: block;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.568);
+}
+
+/* CONTEUDO 2 */
+.conteudo2 {
+    background: white;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    text-align: justify;
+    padding: 50px 70px;
+    line-height: 45px;
+    font-size: 1.5vw;
+    font-weight: bold;
+    box-shadow: inset 0px 5px 10px black;
+}
+
+.conteudo2 p {
+    padding-left: 30px;
+}
+
+.conteudo2 img {
+    width: 20vw;
+}

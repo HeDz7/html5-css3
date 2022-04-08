@@ -16,7 +16,6 @@ body {
     background-color: darkgray;
     width: 100vw;
     height: 100vh;
-    overflow-x: hidden;
 }
 
 /* ---------------HEADER---------------- */
@@ -256,6 +255,7 @@ footer p {
     .conteudo1 img {
         display: none;
     }
+    
     /* CONTEUDO 2 */
     .conteudo2 article {
         flex-direction: column;
@@ -265,7 +265,6 @@ footer p {
         width: 100%;
         display: flex;
         text-align: start;
-        margin-left: 20px;
     }
 
     .conteudo2 .habilidades {
@@ -280,6 +279,7 @@ footer p {
     
     .conteudo2 div {
         width: 100%;
+        padding: 20px;
     }
     
     .conteudo2 article div > h1 {

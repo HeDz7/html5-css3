@@ -13,8 +13,9 @@
 
 body {
     height: 100vh;
-    width: 100vw;
+    width: 98.9vw;
     background-color: darkgray;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* HEADER */
@@ -56,6 +57,11 @@ header .head {
     color: white;
     padding: 20px 0;
     font-size: 2em;
+    letter-spacing: 10px;
+}
+
+.conteudo1 div {
+    width: 100%;
 }
 
 .skills {
@@ -64,11 +70,11 @@ header .head {
     text-align: center;
     padding: 30px;
     width: 100%;
+    height: 100%;
+    min-height: 400px;
 }
 
 .skills p {
-    text-align: center;
-    width: 300px;
     padding-top: 10px;
 }
 
@@ -107,4 +113,77 @@ header .head {
 
 .conteudo2 img {
     width: 20vw;
+}
+
+/* CONTEUDO 3 */
+.conteudo3 {
+    padding: 50px;
+    color: white;
+    background-image: url(imagens/shaco1-1000.jpg);
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.conteudo3 h2 {
+    font-family: 'Assassin', Arial, Helvetica, sans-serif;
+    padding-bottom: 20px;
+    font-size: 2em;
+    letter-spacing: 10px;
+}
+
+.conteudo3 ul {
+    background-color: rgba(0, 0, 0, 0.496);
+    display: inline-block;
+    padding: 10px 30px;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.conteudo3 li span {
+    color: orange;
+}
+
+/* CONTEUDO 4 */
+.conteudo4 { 
+    background: black;
+    padding: 50px;
+}
+
+.conteudo4 h2 {
+    color: white;
+    padding-bottom: 20px;
+    font-family: 'Assassin', sans-serif;
+    letter-spacing: 10px;
+    font-size: 2em;
+}
+
+.conteudo4 p{
+    text-align: justify;
+    font-size: 1.2em;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.333);
+    line-height: 35px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+/* FOOTER */
+footer {
+    display: flex;
+    background: radial-gradient(darkgray, rgb(84, 84, 84));
+    color: white;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+footer img {
+    width: 40px;
+    margin: 0px 10px;
+}
+
+footer p {
+    font-size: 1.3em;
 }

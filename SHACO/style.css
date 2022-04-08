@@ -254,25 +254,27 @@ footer p {
         display: none;
     }
     
-    /* CONTEUDO 3 */    
+    /* CONTEUDO 3 */   
+    
+    .conteudo3 {
+        padding: 20px;
+    }
+
     .conteudo3 h2 {
         font-family: 'Assassin', Arial, Helvetica, sans-serif;
         padding-bottom: 20px;
         font-size: 2em;
         letter-spacing: 5px;
+        text-align: start;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.333);
     }
     
     .conteudo3 ul {
         background-color: rgba(0, 0, 0, 0.496);
-        display: inline-block;
-        padding: 10px 10px;
+        padding: 10px;
         font-size: 1em;
         margin-bottom: 20px;
         list-style-position: inside;
-    }
-    
-    .conteudo3 li span {
-        color: orange;
     }
 
     /* CONTEUDO 4 */

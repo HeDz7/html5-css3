@@ -23,8 +23,6 @@ body {
     background-position: right 48vw bottom 40vh, left 45vw top 44vh;
 }
 
-
-
 main {
     background: white;
     position: absolute;
@@ -70,7 +68,6 @@ main {
     font-size: .85em;
     padding-bottom: 20px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.123);
-
 }
 
 .stats {

@@ -116,6 +116,7 @@ main {
 @keyframes pulsate {
   0% {
     box-shadow: 0 0 25px greenyellow, 0 0 50px white;
+    
   }
 }
 

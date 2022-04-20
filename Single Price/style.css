@@ -100,7 +100,7 @@ main {
   background-color: var(--bright-Yellow);
   border: none;
   color: var(--light-Gray);
-  padding: .8rem 6rem;
+  padding: .8rem 6.1rem;
   margin-top: 1.2rem;
   border-radius: .3rem;
   font-size: 1.1em;
@@ -116,7 +116,7 @@ main {
 @keyframes pulsate {
   0% {
     box-shadow: 0 0 25px greenyellow, 0 0 50px white;
-    
+
   }
 }
 

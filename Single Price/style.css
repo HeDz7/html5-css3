@@ -88,12 +88,12 @@ main {
 }
 
 .footer .left .price p {
-  color: rgba(255, 255, 255, 0.451);
+  color: rgba(255, 255, 255, 0.549);
   padding-left: .75rem;
 }
 
 .footer .left p {
-  color: rgba(255, 255, 255, 0.768);
+  color: rgba(255, 255, 255, 0.873);
 }
 
 .footer .left button {

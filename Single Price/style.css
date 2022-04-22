@@ -100,7 +100,8 @@ main {
   background-color: var(--bright-Yellow);
   border: none;
   color: var(--light-Gray);
-  padding: .8rem 6rem;
+  width: 100%;
+  height: 3rem;
   margin-top: 1.2rem;
   border-radius: .3rem;
   font-size: 1.1em;

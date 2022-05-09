@@ -1,4 +1,4 @@
-const horas = document.getElementById ('horas');
+ const horas = document.getElementById ('horas');
 
 const minutos = document.getElementById ('minutos');
 
